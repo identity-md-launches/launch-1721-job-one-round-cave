@@ -1,0 +1,11 @@
+{
+  "checks_passed": true,
+  "goal_unchanged_bytes": true,
+  "older_records_unchanged_bytes": true,
+  "record_count": 37,
+  "new_record_number": 37,
+  "wall_sha256": "38eb883043aecd11679daa4fe2eaa5d3ac8ed37f00297fa1cab72612e598272c",
+  "named_png_outputs_untracked": true,
+  "new_files_under_100000_bytes_outside_artifacts": true,
+  "wall_current_equals_named_output": true
+}

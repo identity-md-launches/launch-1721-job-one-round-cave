@@ -1,0 +1,10 @@
+{
+  "command": "python3 -B -m unittest discover -s line-3/tools/code-target-proofs -p 'test_*.py' -v",
+  "tests_run": 16,
+  "passed": 16,
+  "failed": 0,
+  "duration_seconds": 20.712,
+  "demonstration_command": "python3 -B line-3/tools/code-target-proofs/demo.py",
+  "demonstration_passed": true,
+  "independent_certification": false
+}
