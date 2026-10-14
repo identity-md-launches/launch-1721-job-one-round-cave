@@ -1,0 +1,27 @@
+{
+  "schema": "active-allowance-spender-code-v1",
+  "source": "https://ethereum-rpc.publicnode.com",
+  "chain_id": 1,
+  "token": "ZTO",
+  "token_address": "0xd782bdea4ef02a0bd391eb9089470c8080f0a68e",
+  "block_number": 26187572,
+  "block_hash": "0xfbdf6fb511bd7ee2e74dd1b2bd8982e05e2d4cf8d10e495e6b9789bc50e7997f",
+  "measured_pair_count": 19,
+  "active_spender_count": 2,
+  "spenders": [
+    {
+      "spender": "0x40aa958dd87fc8305b97f2ba922cddca374bcd7f",
+      "classification": "runtime_code_present",
+      "runtime_code_bytes": 2133,
+      "runtime_code_sha256": "b7a42c1c65ed0b591fad1c32c22823e41c2e94caa431594851bbab03798d4161",
+      "block_hash": "0xfbdf6fb511bd7ee2e74dd1b2bd8982e05e2d4cf8d10e495e6b9789bc50e7997f"
+    },
+    {
+      "spender": "0x765956a7307222346b08fff681820a5d77e92028",
+      "classification": "runtime_code_present",
+      "runtime_code_bytes": 8285,
+      "runtime_code_sha256": "a7c56e8700c1e29c247625aaeb2f9daeb25a2a91b3a422a75566032a1c0b6df4",
+      "block_hash": "0xfbdf6fb511bd7ee2e74dd1b2bd8982e05e2d4cf8d10e495e6b9789bc50e7997f"
+    }
+  ]
+}

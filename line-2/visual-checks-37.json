@@ -1,0 +1,27 @@
+{
+  "source_sha256": "74779548629d6ae67eaeb8e8ac7f1452a396878ca7b606c34b3d9fd753aab493",
+  "output_sha256": "e9ca37a6bcf6743e3368f4c33fa38aacaa9fb124662bd832d2c3d12882148724",
+  "format": "PNG",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "placement": [
+    110,
+    780,
+    130,
+    100
+  ],
+  "changed_pixels": 7322,
+  "outside_placement_unchanged": true,
+  "preview": {
+    "format": "JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 57692
+  },
+  "unmet_visual_requirements": [],
+  "visual_review": "Reviewed full wall and 512px JPEG after production."
+}
