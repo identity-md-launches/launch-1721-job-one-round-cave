@@ -1,0 +1,34 @@
+{
+  "schema": "gathering-delivery-checks-v17",
+  "wall": {
+    "path": "artifacts/gathering/wall-v17.png",
+    "format": "PNG RGB 8-bit",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "sha256": "07216d1cccaf98f9f347e184444002763e78ad8c7b7d2f79aaadce9c11bd5e6c",
+    "bytes": 3938866,
+    "untracked": true
+  },
+  "thumbnail": {
+    "path": "dist/gathering/17.jpg",
+    "format": "baseline JPEG",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 63663
+  },
+  "records": 169,
+  "painted": 85,
+  "placeholders": 84,
+  "gallery_articles": 169,
+  "offline_checks": 162,
+  "offline_tests": 1139,
+  "live_witness": "corroborated at pinned historical block",
+  "shared_demo": "ready-to-review",
+  "line_folders_changed": false,
+  "oversized_files": [],
+  "unmet_visual_requirements_observed": []
+}

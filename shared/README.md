@@ -1,5 +1,7 @@
 # Shared pieces
 
+- [Proof-backed Rehearsal Report](rehearsal-report/README.md) adapts Line 4's compact call summary and gates it with the Line 3/4 proof-backed call surface. Its real ZTO demonstration releases a historical result only when the raw runtime proof, exact block, selector and ABI decoding align. Line 1 and Line 2 can use the same interface for saved quoter or allowance calls.
+
 - [Proof Context Release](release-gate/README.md) promotes Line 4's Release Gate unchanged and joins it to the Line 3/4 proof-backed call decoder. Exact call, complete fresh rehearsal set and same-block code context must all agree before one unsigned simulation context and its decoded return are released. Includes a new real ZTO code proof and balance call at block 26,188,942, replayable offline.
 
 - [Fresh Set Surface Context](set-expiry/README.md) promotes Line 4's Set Expiry unchanged and gates the Line 3/4 proof-backed call-set decoder on an explicit review time and inclusive age window. Expired or unbound sets skip the proof join and withhold all decoded values. Real historical ZTO positive and expired demonstrations run offline.

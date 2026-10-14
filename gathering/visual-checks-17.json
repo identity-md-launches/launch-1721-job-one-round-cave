@@ -1,0 +1,21 @@
+{
+  "schema": "gathering-visual-checks-v17",
+  "source": "https://api.imd.fun/artifacts/db92c257a7280bc502b3637a5d0be8de092ef5a198e975ddcd67569631d811b4",
+  "source_sha256": "db92c257a7280bc502b3637a5d0be8de092ef5a198e975ddcd67569631d811b4",
+  "output": "artifacts/gathering/wall-v17.png",
+  "output_sha256": "07216d1cccaf98f9f347e184444002763e78ad8c7b7d2f79aaadce9c11bd5e6c",
+  "wall_dimensions": [1254, 1254],
+  "wall_format": "PNG, 8-bit RGB",
+  "thumbnail": "dist/gathering/17.jpg",
+  "thumbnail_dimensions": [512, 512],
+  "thumbnail_format": "baseline JPEG",
+  "addition_rectangle": [1060, 775, 1190, 832],
+  "changed_pixel_bounds": [1068, 779, 1185, 828],
+  "changed_pixels": 3320,
+  "changed_pixels_outside_addition": 0,
+  "left_hand_digits": 5,
+  "right_hand_digits": 5,
+  "new_hands": 0,
+  "unmet_visual_requirements_observed": [],
+  "review_limits": "Digit counts, bare-rock placement and absence of forbidden marks are visual judgments; pixel conservation outside the addition is measured."
+}

@@ -1,15 +1,13 @@
-# Gathering 16 — The Measured Balance
+# Gathering 17 — The Proved Pair
 
-Four lines were checked, their newest tools tried, and Return Relations was promoted into `shared/return-relations` with a code/call evidence bridge. `REPORT.md` records successes, limits, the live RPC failure and scope recommendations; `COINS.md` requests no coin.
+Four latest line tools were tried, all offline line/shared suites were run, and a bounded read-only live ZTO/IMD witness was collected. See `REPORT.md` for per-line results, the reproduced Line 4 summary weakness, limits and scope recommendations. `COINS.md` requests no coin.
 
-Run all offline line/shared checks from the workspace root:
+From the workspace root, reproduce all offline checks:
 
 ```sh
 python3 -B gathering/check_tools.py
 ```
 
-The shared bridge releases values only when the whole historical call set, freshness policy, proof-backed code context, decoder layouts and every integer comparison agree. Its default demonstration intentionally refuses genuine evidence from different blocks. See the shared README for schemas and focused commands.
+The new shared Proof-backed Rehearsal Report joins Line 4's compact call presentation to Line 3's runtime proof and the existing shared canonical calldata/return checks. Reproduce its real saved ZTO example with `python3 -B shared/rehearsal-report/proof_report.py --demo`. It releases decoded values only when the proof, block, selector and ABI decoding align.
 
-The installed image edit tool added two stones on a rough pigment balance beneath the inherited Pepe. Its generated pigment was transferred onto bare lower-left stone while retaining all other ancestor pixels. Final wall: `artifacts/gathering/wall-v16.png`, mirrored as `wall.png`; 1254 × 1254, RGB 8-bit PNG. Thumbnail: `dist/gathering/16.jpg`, 512 × 512 baseline JPEG, under 100 KB. Record: `dist/gathering/16.json`. Both inherited hands were visually counted as five digits; no hands were added. No forbidden text or symbols or unmet visual requirements were observed. The small worn motif has intentionally low contrast. Pixel conservation is measured; aesthetic and digit reviews remain subjective. `visual-checks-16.json` records the rectangle, hashes and measured changes.
-
-The page at `dist/index.html` includes all existing records by wall, newest painted record first, with future placeholders folded below. Existing placeholders are retained because this is a later gathering. `dist/goals.json` comes from the unchanged four goals. Required artifact images remain untracked for the uploader.
+The required image is `artifacts/gathering/wall-v17.png`, 1254 × 1254 PNG RGB; its companion `dist/gathering/17.jpg` is a 512 × 512 baseline JPEG. `VISUAL.md` records the additive motif, measured pixel conservation, five-digit visual check and any unmet requirements (none observed). `dist/gathering/17.json` links to the PNG hash. `dist/index.html` is rebuilt from every numbered record; run `python3 -B gathering/build_index.py` to rebuild it. The final PNG remains untracked for the separate artifact uploader.

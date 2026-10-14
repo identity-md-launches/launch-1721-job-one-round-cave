@@ -1,0 +1,80 @@
+{
+  "schema": "zto-witness-routes-report-v1",
+  "mode": "live_read_only",
+  "chain_id": 1,
+  "pool_id": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+  "block": {
+    "number": "0x18fa00b",
+    "hash": "0x704a5f1482aef1eba61738675bcd36830f29269ee9df2ed6d2ac19cbf67a6104",
+    "timestamp": "0x6acf4ad7"
+  },
+  "status": "corroborated",
+  "attempts": [
+    {
+      "source": "https://ethereum-rpc.publicnode.com",
+      "stage": "resolve_block",
+      "status": "pinned"
+    },
+    {
+      "source": "https://ethereum-rpc.publicnode.com",
+      "stage": "capture_and_quoter",
+      "status": "complete"
+    },
+    {
+      "source": "https://eth.drpc.org",
+      "stage": "capture_and_quoter",
+      "status": "complete"
+    }
+  ],
+  "bound_released": true,
+  "bound": {
+    "estimated_output_raw": "21060151485422",
+    "planning_minimum_raw": "20849549970567",
+    "slippage_bps": 100
+  },
+  "witness": {
+    "schema": "zto-witness-report-v1",
+    "status": "corroborated",
+    "pool_id": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+    "block": {
+      "number": "0x18fa00b",
+      "hash": "0x704a5f1482aef1eba61738675bcd36830f29269ee9df2ed6d2ac19cbf67a6104",
+      "timestamp": "0x6acf4ad7"
+    },
+    "input_token": "ZTO",
+    "output_token": "IMD",
+    "requested_input": "1",
+    "checks": {
+      "same_block": true,
+      "same_pool_state_and_coverage": true,
+      "first_state_sha256": "3564ed6614cfaeb5e9253b3c7328571b14fc3ad9250c0b346427fc5e41c10968",
+      "second_state_sha256": "3564ed6614cfaeb5e9253b3c7328571b14fc3ad9250c0b346427fc5e41c10968",
+      "both_local_fills_complete_and_equal": true,
+      "first_quoter_matches_local": true,
+      "second_quoter_matches_local": true,
+      "quoter_outputs_equal_local_estimate": true
+    },
+    "bound_released": true,
+    "bound": {
+      "estimated_output_raw": "21060151485422",
+      "planning_minimum_raw": "20849549970567",
+      "slippage_bps": 100
+    },
+    "source_labels": [
+      "https://ethereum-rpc.publicnode.com",
+      "https://eth.drpc.org"
+    ],
+    "limitations": [
+      "Different endpoint URLs do not prove different upstream providers or independent trust.",
+      "The planning minimum is arithmetic only; it is not enforced by a router or receipt.",
+      "No token settlement behavior, gas, MEV, future liquidity, wallet or transaction is modeled."
+    ]
+  },
+  "invariant": "One block pin; each selected source supplies its whole capture and quoter check.",
+  "limitations": [
+    "Endpoint labels do not prove independent providers or authenticated state.",
+    "Fallback handles unavailable reads, never searches for a preferred agreeing quote.",
+    "A planning minimum is not enforced by a router; no signing or sending is supported.",
+    "No settlement, transfer behavior, gas, MEV, future liquidity or freshness guarantee."
+  ]
+}
