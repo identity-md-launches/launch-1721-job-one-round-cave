@@ -1,0 +1,42 @@
+{
+  "ancestor_sha256": "d591812e0147cff0e226b0a9323b285c0d1e8fe18e9fbb2bd4ec947375357b44",
+  "wall_sha256": "5fe438b0995f672c5628c1c1efa1db8e7bb585b7cc61acb7f31c9ef5745d4881",
+  "wall": {
+    "path": "artifacts/line-1/wall-v17.png",
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3998746
+  },
+  "jpeg": {
+    "path": "dist/line-1/37.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 56594
+  },
+  "addition_box": [
+    345,
+    935,
+    495,
+    1009
+  ],
+  "changed_pixels_inside": 10525,
+  "protected_corner": [
+    345,
+    935,
+    355,
+    945
+  ],
+  "changed_pixels_in_protected_corner": 0,
+  "changed_pixels_outside": 0,
+  "hand_review": "No new hands or handprints. Each inherited main Pepe hand visually has four fingers and one thumb, five digits total.",
+  "text_review": "No letters, numbers, signatures, logos or watermarks observed.",
+  "unmet_visual_requirements": [],
+  "visual_limitations": [
+    "Worn pigment and small details make visual judgments subjective.",
+    "Rock texture within the small generated patch is approximate; outside pixels are exact.",
+    "The motif was generated slightly above the requested position; the reviewed actual bare-rock position was selected."
+  ]
+}

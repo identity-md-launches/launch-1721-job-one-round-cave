@@ -1,0 +1,15 @@
+{
+  "mode": "live_read_only",
+  "public_rpc_reference": "https://ethereum-rpc.publicnode.com",
+  "transport": "assignment contributor relay; upstream identity not independently established",
+  "block": {
+    "number": "0x18f9f4b",
+    "hash": "0x7ae39c89bed40bfe76c32a7048c88c67315774de25e3d8070bdaead3730999fd",
+    "timestamp": "0x6acf41d7"
+  },
+  "complete_state_and_quoter_sources": 1,
+  "status": "insufficient_sources",
+  "bound_released": false,
+  "bound": null,
+  "exit_code": 2
+}

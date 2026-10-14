@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "goal_byte_for_byte_unchanged": true,
+    "older_records_unchanged": true,
+    "number_is_previous_count_plus_one": true,
+    "record_shape_and_traits": true,
+    "record_hash_matches_final_png": true,
+    "mirrored_wall_identical": true,
+    "images_probe_and_full_decode": true,
+    "png_outputs_untracked": true,
+    "all_changes_inside_permitted_paths": true,
+    "no_preexisting_tool_or_configuration_changed": true,
+    "non_artifact_file_size_limit": true,
+    "python_source_compiles_without_cache": true,
+    "readme_demo_matches_saved_report": true,
+    "all_new_json_files_parse": true,
+    "visual_record_binds_final_file_and_conservation": true,
+    "git_diff_whitespace": true
+  },
+  "images": [
+    {
+      "path": "artifacts/line-1/wall-v17.png",
+      "bytes": 3998746,
+      "codec_name": "png",
+      "width": 1254,
+      "height": 1254,
+      "pix_fmt": "rgb24"
+    },
+    {
+      "path": "dist/line-1/37.jpg",
+      "bytes": 56594,
+      "codec_name": "mjpeg",
+      "width": 512,
+      "height": 512,
+      "pix_fmt": "yuvj444p"
+    }
+  ],
+  "wall_sha256": "5fe438b0995f672c5628c1c1efa1db8e7bb585b7cc61acb7f31c9ef5745d4881",
+  "older_record_count": 36,
+  "changed_or_created_paths": [
+    "artifacts/line-1/wall-v17.png",
+    "artifacts/line-1/wall.png",
+    "dist/line-1/37.jpg",
+    "dist/line-1/37.json",
+    "line-1/CHECKS-37.md",
+    "line-1/USED.md",
+    "line-1/VISUAL-37.md",
+    "line-1/check-results-37.json",
+    "line-1/finish_wall_37.py",
+    "line-1/tools/zto-witness-routes/README.md",
+    "line-1/tools/zto-witness-routes/demo-report.json",
+    "line-1/tools/zto-witness-routes/live-check.json",
+    "line-1/tools/zto-witness-routes/test_zto_witness_routes.py",
+    "line-1/tools/zto-witness-routes/zto_witness_routes.py",
+    "line-1/visual-checks-37.json",
+    "line-1/delivery-checks-37.json"
+  ],
+  "tool_test_count": 55,
+  "live_scope": "One complete capture and matching Quoter check; insufficient sources, no bound released.",
+  "media_limitation": "Earlier Replicate creation timed out without ID; not counted as succeeded. Final wall uses successful built-in edit.",
+  "unmet_visual_requirements": []
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "zto-witness-routes-report-v1",
+  "mode": "offline_historical_fixture_with_simulated_archive_failure",
+  "chain_id": 1,
+  "pool_id": "0x888b07bd282f587d3c6b0fcb23e7fc55bbb33abe8910dd7492db815dc8dc5592",
+  "block": {
+    "number": "0x18f8a44",
+    "hash": "0xcd8e7e4ba940af1feac8d6b441c37ef0230c4bcd2fd55d36376038a4b4c36650",
+    "timestamp": "0x6ace4457"
+  },
+  "status": "insufficient_sources",
+  "attempts": [
+    {
+      "source": "https://archive-unavailable.example",
+      "stage": "resolve_block",
+      "status": "history_unavailable",
+      "error": "RPC error: {\"code\":4444,\"message\":\"pruned history unavailable\"}"
+    },
+    {
+      "source": "https://ethereum-rpc.publicnode.com",
+      "stage": "resolve_block",
+      "status": "pinned"
+    },
+    {
+      "source": "https://ethereum-rpc.publicnode.com",
+      "stage": "capture_and_quoter",
+      "status": "complete"
+    }
+  ],
+  "bound_released": false,
+  "bound": null,
+  "witness": null,
+  "invariant": "One block pin; each selected source supplies its whole capture and quoter check.",
+  "limitations": [
+    "Endpoint labels do not prove independent providers or authenticated state.",
+    "Fallback handles unavailable reads, never searches for a preferred agreeing quote.",
+    "A planning minimum is not enforced by a router; no signing or sending is supported.",
+    "No settlement, transfer behavior, gas, MEV, future liquidity or freshness guarantee.",
+    "The .example failure is simulated; only one real archived source is available."
+  ]
+}
